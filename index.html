@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vanilla JavaScript Stopwatch</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<div class="stopwatch">
+		<h1 class="stopwatch__title">Stopwatch</h1>
+		<h2 class="stopwatch__subtitle">Vanilla JavaScript Stopwatch</h2>
+
+		<ul class="stopwatch__wrapper">
+			<li class="stopwatch__inner">
+				<div class="stopwatch__nums stopwatch__hours">
+					00
+				</div>
+				<p class="stopwatch__units">h</p>
+			</li>
+			<li class="stopwatch__inner">
+				<div class="stopwatch__nums stopwatch__minutes">
+					00
+				</div>
+				<p class="stopwatch__units">min</p>
+			</li>
+			<li class="stopwatch__inner">
+				<div class="stopwatch__nums stopwatch__seconds">
+					00
+				</div>
+				<p class="stopwatch__units">sec</p>
+			</li>
+			<li class="stopwatch__inner">
+				<div class="stopwatch__nums stopwatch__milliseconds">00</div>
+				<p class="stopwatch__units">mil</p>
+			</li>
+		</ul>
+		<div class="stopwatch__box">
+			<button class="btn stopwatch__start">Start</button>
+			<button class="btn stopwatch__stop">Stop</button>
+			<button class="btn stopwatch__reset">Reset</button>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
